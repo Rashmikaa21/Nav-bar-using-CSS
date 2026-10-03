@@ -1,0 +1,46 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(168, 230, 11);
+    color: blue;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: rgb(144, 237, 242);
+}
+
+.navlink{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navlink a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bolder;
+}
+
+
+.button{ 
+    background-color: blue;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+  background-color: greenyellow;
+}
